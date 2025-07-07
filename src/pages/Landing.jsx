@@ -4,9 +4,11 @@ import main from '../assets/images/main.svg';
 
 import { Link } from 'react-router-dom';
 import { Logo } from '../components';
+import { Outlet } from 'react-router-dom';
 const Landing = () => {
   return (
   <Wrapper>
+       <Outlet />
     <nav> 
       <Logo/>
     </nav>

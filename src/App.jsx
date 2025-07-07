@@ -12,7 +12,6 @@ import {
 const router = createBrowserRouter([
   {
     path:'/',
-    element:<Landing/>,
     errorElement:<Error/>,
     children:[
       {
