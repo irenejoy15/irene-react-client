@@ -14,3 +14,5 @@ REACT ROUTER
 - App.jsx
 
 CREATE PAGES
+- create all pages 
+- setup index js app.jsx
