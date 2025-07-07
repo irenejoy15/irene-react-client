@@ -12,3 +12,5 @@ SUMMARY
 REACT ROUTER
 - [React Router](https://reactrouter.com/en/main) npm i react-router-dom
 - App.jsx
+
+CREATE PAGES
