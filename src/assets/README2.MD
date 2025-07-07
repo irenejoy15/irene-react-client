@@ -16,3 +16,9 @@ REACT ROUTER
 CREATE PAGES
 - create all pages 
 - setup index js app.jsx
+
+CREATION OF NAVBAR
+- Dapat meron Outlet Tag para sa mga Children ng Coutes
+- app.jsx - lagay sa Children app
+- Outlet Sa Navbar na tag or HomeLayout 
+- Put index sa routes yung unang mag load sa children route
