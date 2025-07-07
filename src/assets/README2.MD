@@ -1,4 +1,5 @@
 ES7 React/Redux/GraphQL/React-Native snippets
+vscode-styled-components
 auto rename tag
 
 - https://vite.dev/ -> to create react app
@@ -8,6 +9,7 @@ auto rename tag
 SUMMARY
 - FAVICON AND TITLE https://favicon.io/
 - npm install @tanstack/react-query @tanstack/react-query-devtools axios dayjs react-icons react-router-dom react-toastify recharts styled-components
+- npm install styled-components
 
 REACT ROUTER
 - [React Router](https://reactrouter.com/en/main) npm i react-router-dom
@@ -22,3 +24,9 @@ CREATION OF NAVBAR
 - app.jsx - lagay sa Children app
 - Outlet Sa Navbar na tag or HomeLayout 
 - Put index sa routes yung unang mag load sa children route
+
+Error Page
+- Error Page Put to routes App.jsx
+
+Styled Components
+- Same sa angular component.css  Logic
