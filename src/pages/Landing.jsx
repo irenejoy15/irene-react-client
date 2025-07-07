@@ -1,17 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const StyledBtn = styled.button`
-  font-size: 1.5rem;
-  background: red;
-  color:white;
-`;
-
 const Landing = () => {
-  return <div>
+  return <Wrapper>
     <h1>Landing Page</h1>
-    <StyledBtn>STYLED BUTTON</StyledBtn>
-  </div>
+    <div className='content'>SOME CONTENT</div>
+  </Wrapper>
 }
-
+const Wrapper = styled.div`
+  background: red;
+  h1{
+    color: white;
+  }
+  .content {
+    background: blue;
+    color: yellow;
+  }
+`;
 export default Landing
