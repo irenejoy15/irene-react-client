@@ -30,3 +30,4 @@ Error Page
 
 Styled Components
 - Same sa angular component.css  Logic
+- Nasa Assets yung styled components
