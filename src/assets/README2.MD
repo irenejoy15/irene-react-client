@@ -17,7 +17,40 @@ REACT ROUTER
 
 CREATE PAGES
 - create all pages 
+import React from 'react'
+
+const AddJob = () => {
+  return (
+    <h1>AddJob Page</h1>
+  )
+}
+
+export default AddJob
+
 - setup index js app.jsx
+    path:'/',
+    errorElement:<Error/>,
+    children:[
+      {
+        index:true,
+        element: <Landing/>
+      },
+      {
+        path:'register',
+        element:<Register/>
+      },
+      {
+        path:'login',
+        element:<Login/>
+      }
+      ,
+      {
+        path:'dashboard',
+        element:<DashboardLayout/>
+      }
+    ]
+
+
 
 CREATION OF NAVBAR
 - Dapat meron Outlet Tag para sa mga Children ng Coutes
@@ -33,3 +66,4 @@ Styled Components
 - Nasa Assets yung styled components
 - Logo Components
 - unDraw.co and Figma
+
