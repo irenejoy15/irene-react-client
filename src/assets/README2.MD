@@ -10,6 +10,7 @@ SUMMARY
 - FAVICON AND TITLE https://favicon.io/
 - npm install @tanstack/react-query @tanstack/react-query-devtools axios dayjs react-icons react-router-dom react-toastify recharts styled-components
 - npm install styled-components
+- npm install react-icons
 
 REACT ROUTER
 - [React Router](https://reactrouter.com/en/main) npm i react-router-dom
