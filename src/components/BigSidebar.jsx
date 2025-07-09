@@ -11,7 +11,7 @@ const BigSidebar = () => {
             <header>
               <Logo/>
             </header>
-            <Navlinks/>
+            <Navlinks isBigSidebar/>
           </div>
         </div>
     </Wrapper>
