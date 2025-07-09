@@ -70,3 +70,5 @@ Styled Components
 CREATE GLOBAL CONTEXT LIKE USERS ETC
 - const DashboardContext = createContext()
 
+REACT ICONS
+- 
