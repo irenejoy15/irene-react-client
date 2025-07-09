@@ -67,3 +67,6 @@ Styled Components
 - Logo Components
 - unDraw.co and Figma
 
+CREATE GLOBAL CONTEXT LIKE USERS ETC
+- const DashboardContext = createContext()
+
