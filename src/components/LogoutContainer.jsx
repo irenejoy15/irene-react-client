@@ -15,7 +15,7 @@ const LogoutContainer = () => {
                 <FaCaretDown/>
             </button>
             <div className={showLogout?'dropdown show-dropdown':'dropdown'}>
-                <button type='button' className='dropdown-btn'>
+                <button onClick={logoutUser} type='button' className='dropdown-btn'>
                     logout
                 </button>
             </div>
