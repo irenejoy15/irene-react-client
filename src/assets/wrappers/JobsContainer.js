@@ -11,7 +11,7 @@ const Wrapper = styled.section`
   }
   .jobs {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
   }
   @media (min-width: 1120px) {
