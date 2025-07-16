@@ -10,6 +10,7 @@ import {
   AddJob,
   Stats,
   AllJobs,
+  EditJob,
   Profile,
   Admin
 } from './pages';
@@ -76,6 +77,10 @@ const router = createBrowserRouter([
             path:'admin',
             element:<Admin/>
           },
+          {
+            path:'edit-job/:id',
+            element: <EditJob/>,
+          }
         ]
       }
     ]
